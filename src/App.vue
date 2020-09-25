@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import JokeButton './components/jokebutton.vue'
-import LoudJoke './components/loadjoke.vue'
-import NormalJoke './components/loadjoke.vue'
-import SnakeJoke './components/snakejoke.vue'
+import JokeButton from './components/jokebutton.vue'
+import LoudJoke from './components/loadjoke.vue'
+import NormalJoke from './components/loadjoke.vue'
+import SnakeJoke from './components/snakejoke.vue'
 
 export default {
   name: "App",
