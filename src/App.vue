@@ -18,7 +18,6 @@ export default {
     // LoudJoke,
     // NormalJoke,
     // SnakeJoke
-
   }
 };
 </script>
