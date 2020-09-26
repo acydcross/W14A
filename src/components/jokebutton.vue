@@ -1,5 +1,5 @@
 <template>
-  <div id="button">
+  <div>
     <button @click="getJokes">Jokes</button>
     <div>
       <button @click="getNormal">Normal Joke</button>
@@ -7,8 +7,8 @@
     <div>
       <button @click="getLoud">Loud Joke</button>
     </div>
-      <button @click="getSnake">Snake Joke</button>
     <div>
+      <button @click="getSnake">Snake Joke</button>
     </div>
   </div>
 </template>
