@@ -6,13 +6,13 @@
 
 <script>
     export default {
-        name: "snake-joke",
-        computed:{
-            SnakeJoke:function(){
-                return this.$store.getters.snakeJoke
-            }
-        }
+    name:"snake-joke",
+    computed:{
+      LoudJoke:function(){
+        return this.$store.getters.snakeJoke
     }
+  }
+}
 </script>
 
 <style scoped></style>

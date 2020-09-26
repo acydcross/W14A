@@ -7,12 +7,12 @@
 <script>
     export default {
     name:"loud-joke",
-           computed:{
-            LoudJoke:function(){
-                return this.$store.getters.loudJoke
-            }
-        }
+    computed:{
+      LoudJoke:function(){
+        return this.$store.getters.loudJoke
     }
+  }
+} 
 </script>
 
 <style scoped></style>
